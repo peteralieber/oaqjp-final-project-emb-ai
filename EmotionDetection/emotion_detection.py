@@ -26,5 +26,5 @@ def emotion_detector(text_to_analyse):
     scores['dominant_emotion'] = dominant[0]
 
 
-    return json.dumps(scores, indent=4)
+    return scores
  
